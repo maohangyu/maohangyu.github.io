@@ -1,0 +1,325 @@
+
+/* - DOCUMENT INFORMATION
+------------------------------------------------- 
+	Description:Portfolio & Bio of Henry Brown 2011
+	Author:Henry Brown
+	Author URI:http://www.henry.brown.name
+	Version:1.0
+/*
+
+
+
+/* - 3.0. - GLOBAL
+---------------------------------------------- */
+	
+	/* - 3.1. - STRUCTURAL
+	------------------------------------------ */
+	/*
+    body{
+		background:url("../images/global/bg.png");
+		background-attachment:fixed;
+		
+		font-size:16px;
+		letter-spacing:-0.1px;
+		color:#444;
+	}
+	html,body{
+		height:100%;
+		width:100%;
+	}*/
+	#container{
+		position:relative;
+	}
+	.constraint{
+		display:block;
+		width:900px;
+		height:100%;
+		margin:0 auto;
+		position:relative;
+	}
+	.left{
+		float:left;
+	}
+	.right{
+		float:right;
+	}
+
+	#about-me{
+		overflow:auto;
+		padding:100px 0px;
+		width:100%;
+	}
+	
+
+
+
+/* - 7.0. - ABOUT ME
+---------------------------------------------- */
+#about-me{
+	background:url(../images/grunge-bg-2.png);
+	overflow:hidden;
+}
+#about-me .title{
+	width:100%;
+	height:95px;
+	background:url(../images/about-title.png) no-repeat center center;
+	text-indent:-9999px;
+}
+#about-me p{
+	font-size:18px;
+	text-shadow:0px 1px 0px #FFF;
+    line-height:1.5;
+    text-align:justify
+}
+#about-me h3{
+	font-size:30px;
+	text-shadow:0px 1px 0px #FFF;
+    text-align:left
+
+}
+ 
+#about-me .about-me-icons{
+	float:right;
+	width:150px;
+	overflow:hidden;
+}
+#about-me .about-me-icons li{
+	float:right;
+	list-style:none;
+	margin:0 0 0 10px;
+	opacity:0.5;
+}
+#about-me .about-me-icons li a{
+	height:23px;
+	display:block;
+	text-indent:-9999px;
+	background:url(../images/about-me-icons.png) no-repeat;
+}
+#about-me .about-me-icons li:hover{
+	opacity:1;
+}
+#about-me .about-me-icons li.cv-download a{
+	background-position:0px 0px;
+	width:18px;
+}
+#about-me .about-me-icons li.client-feedback a{
+	background-position:-49px 0px;
+	width:25px;
+}
+#about-me .about-me-icons li.vcard a{
+	background-position:-20px 0px;
+	width:28px;
+}
+
+#about-me .right-section{
+	padding:0 130px 0 43px;
+	float:right;
+	width:712px;
+	margin:0 0 30px 0;
+	border-left:5px dotted #cdcdcd;
+}
+#about-me .left-section{
+	padding:0 0 0 0;
+	float:left;
+	width:450px;
+	margin:0 0 30px 0;
+}
+#about-me .right-section h3, #about-me .left-section h3{
+	font-size:20px;
+	font-weight:300;
+}
+#about-me #progress-bar-container{
+	display:none;
+	padding:20px 0 40px 0;
+	clear:both;
+	position:relative;
+}
+#about-me #progress-bar-container .start-date,
+#about-me #progress-bar-container .end-date{
+	font-size:28px;
+	font-weight:900;
+	font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2","Helvetica Neue","Arial";
+	display:block;
+	position:absolute;
+	bottom:27px;
+}
+#about-me #progress-bar-container .start-date{
+	left:0px;
+}
+#about-me #progress-bar-container .end-date{
+	right:0px;
+}
+#about-me .day-number{
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	color:#ccc;
+	color:rgba(0,0,0,0.08);
+	font-size:50px;
+	font-weight:900;
+	font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2","Helvetica Neue","Arial";
+}
+#about-me .percentage{
+	padding:20px 0 0 35px;
+	background:url(../images/life-complete.png) no-repeat;
+	display:block;
+	position:absolute;
+	top:-11px;
+	right:0px;
+	color:#ccc;
+	color:rgba(0,0,0,0.08);
+	font-size:45px;
+	font-weight:900;
+	font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2","Helvetica Neue","Arial";
+}
+#about-me .progress-key{
+	overflow:hidden;
+	width:300px;
+	padding:3px;
+	margin:0 auto 65px auto;
+	background:url(../images/grunge-bg-2.png) #ccc;
+	background:url(../images/grunge-bg-2.png) rgba(230,230,230,0.9);
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+}
+#about-me .progress-key li{
+	list-style:none;
+	float:left;
+	width:130px;
+	padding:10px 0;
+	font-size:13px;
+	font-weight:600;
+}
+#about-me .progress-key li.personal{
+	text-align:right;
+	padding-right:30px;
+	background:url(../images/pin-black.png) no-repeat right center;
+	margin-right:5px;
+}
+#about-me .progress-key li.professional{
+	text-align:left;
+	padding-left:30px;
+	background:url(../images/pin-red.png) no-repeat left center;
+	margin-left:5px;
+}
+#about-me .progress-bar{
+	position:relative;
+	width:745px;
+	height:7px;
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	background:#333;
+	margin:0 auto;
+	overflow:visible;
+}
+#about-me .progress{
+	/*background:#cf0000;*/
+	width:100%;
+	height:10px;
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+}
+#about-me .progress-bar .progress .notes{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	margin:0px;
+	padding:0px;
+}
+#about-me .progress-bar .progress .notes li{
+	position:absolute;
+	width:21px;
+	height:8px;
+	overflow:visible;
+	padding:25px 2px 2px 2px;
+	margin:0px;
+	list-style:none;
+}
+#about-me .progress-bar .progress .notes li.professional{
+	background:url(../images/pin-red.png) no-repeat center top;
+	top:-7px;
+}
+#about-me .progress-bar .progress .notes li.personal{ 
+	top:15px;
+	background:url(../images/pin-black.png) no-repeat center top;
+}
+#about-me .progress-bar .progress .notes li .caption{
+	padding:10px;
+	width:200px;
+	background:#333;
+	position:absolute;
+	z-index:500;
+	display:none;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	box-shadow:0px 2px 2px rgba(0,0,0,0.07);
+	-moz-box-shadow:0px 2px 2px rgba(0,0,0,0.07);
+	-webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.07);
+}
+#about-me .progress-bar .progress .notes li .caption h4{
+	font-weight:600;
+	margin:0 0 5px 0;
+	font-size:14px;
+	text-align:left;
+	color:#fff;
+}
+#about-me .progress-bar .progress .notes li .caption p{
+	font-size:12px;
+	color:#fff;
+	text-shadow:none;
+	margin:0px;
+    line-height:1.5;
+    text-align:justify
+}
+#about-me .progress-bar .progress .notes li.personal .caption .arrow{
+	border-color:transparent transparent #333 transparent;
+	border-style:solid;
+	border-width:5px;
+	height:0;
+	width:0;
+	position:absolute;
+	top:-10px;
+	left:17px;
+}
+#about-me .progress-bar .progress .notes li.professional .caption .arrow{
+	border-color:#333 transparent transparent transparent;
+	border-style:solid;
+	border-width:5px;
+	height:0;
+	width:0;
+	position:absolute;
+	bottom:-10px;
+	left:17px;
+}
+#about-me .progress-bar .progress .notes li.professional .caption{
+	top:-40px;
+	left:-10px;
+	padding-bottom:10px;
+}
+#about-me .progress-bar .progress .notes li.personal .caption{
+	top:40px;
+	left:-10px;
+	padding-top:10px;
+	
+}
+#about-me .progress-bar .progress .notes li .caption .date{
+	display:none;
+}
+#about-me .progress-bar .progress .notes li .caption h4 span{
+	color:#999;
+}
+#about-me .left-section .chart{
+	width:362px;
+	height:362px;
+	background:url(../images/skill-chart.png) no-repeat;
+	margin:20px auto 0 auto;
+	display:block;
+}
+

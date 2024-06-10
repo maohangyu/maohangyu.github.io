@@ -1,0 +1,963 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hangyu Mao's Homepage（毛航宇的主页）</title>
+		<meta name="Description" Content="Intelligent Decision-making Technique from Hangyu Mao.毛航宇对于智能决策技术的研究成果。">
+		<meta name="Keywords" Content="Reinforcement Learning,RL,Multi-Agent Reinforcement Learning,MARL,Large Language Model,LLM,Artificial Intelligent Agent,AI Agent,Artificial General Intelligent,强化学习,多智能体强化学习,大语言模型,智能体,人工智能代理,通用人工智能″>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css"></style>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+        <!-- Scripts -->
+		<script src="./assets/js/jquery.min.js"></script>
+		<script src="./assets/js/jquery.scrolly.min.js"></script>
+		<script src="./assets/js/jquery.scrollex.min.js"></script>
+		<script src="./assets/js/browser.min.js"></script>
+		<script src="./assets/js/breakpoints.min.js"></script>
+		<script src="./assets/js/util.js"></script>
+		<script src="./assets/js/main.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <!-- Scripts -->
+        <script src="./assets/js/jquery.min.js.下载"></script>
+        <script src="./assets/js/jquery.scrolly.min.js.下载"></script>
+        <script src="./assets/js/jquery.scrollzer.min.js.下载"></script>
+        <script src="./assets/js/skel.min.js.下载"></script>
+        <script src="./assets/js/util.js.下载"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="./assets/js/main.js.下载"></script>
+        <script src="./assets/js/jquery-1.7.2.min.js.下载"></script>
+        <script src="./assets/js/modernizr-1.6.min.js.下载"></script>
+        <script src="./assets/js/jquery.tipTip.js.下载"></script>
+        <script src="./assets/js/scripts.min.js.下载"></script>
+        <script src="./assets/js/time-calculator.min.js.下载"></script>
+		<style type="text/css">
+			.bold_text{font-weight:600}
+		</style>
+		
+	</head>
+	<body class="is-preload">
+
+		<div id="header">
+
+			<div class="top">
+			
+				<!-- Logo -->
+				<div id="logo">
+					<span class="image avatar48"><img src="images/HangyuMao.jpg" alt="" /></span>
+					<h1 id="title">毛航宇</h1> 
+					<p id="title">Hangyu Mao</p>
+					<p></p>
+					<!-- <p><a href="resume-EN.pdf" target="_blank">English CV</a> | <a href="resume-CH.pdf" target="_blank">中文简历</a></p> -->
+					<!-- <p><a href="HangyuMao_CH.pdf" target="_blank">中文简历</a></p> -->
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="#home" id="home-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+						<!-- <li><a href="#education" id="education-link" class="skel-layers-ignoreHref"><span class="icon fas fa-graduation-cap">Education</span></a></li>
+						<li><a href="#award" id="award-link" class="skel-layers-ignoreHref"><span class="icon fa-thumbs-up">Award</span></a></li>
+						<li><a href="#work" id="work-link" class="skel-layers-ignoreHref"><span class="icon fa-laptop">Work</span></a></li> -->
+						<li><a href="#publication" id="publication-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Publication</span></a></li>
+						<!-- <li><a href="#miscellaneous" id="miscellaneous-link" class="skel-layers-ignoreHref"><span class="icon fa-flag">Miscellaneous</span></a></li> -->
+					</ul>
+				</nav>
+
+			</div>
+			
+			<!--
+			<div class="bottom">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="https://github.com/maohangyu" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+					<li><a href="mailto:hy.mao@pku.edu.cn" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+					<li><a href="https://scholar.google.com/citations?user=EtVHsgcAAAAJ" class="icon fas fa-graduation-cap" target="_blank"><span class="label">Scholar</span></a></li>
+				</ul>
+			</div>
+			-->
+
+		</div>
+		
+		<div id="main">
+		
+			<!-- Intro -->
+			<section id="home" class="one cover">
+			</section>
+					
+			<!-- About Me -->
+			<section id="about" class="four">
+				<div class="container">
+				
+					<p align="justify">
+						<b>感谢访问毛航宇的主页。毛航宇博士，关注强化学习、大语言模型、智能体等技术研究。曾获得<a href="https://www.aicrowd.com/challenges/neurips-2020-minerl-competition/leaderboards" target="_blank"><font class="bold_text">国际</font>人工智能会议NeurIPS强化学习竞赛冠军</a><a href="./images/华为——MineRL冠军.pdf" target="_blank">（团队负责人）</a>、<a href="http://zhenxiao.com/awards/%E4%BC%98%E7%A7%80%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87%E5%A5%96.jpg" target="_blank"><font class="bold_text">中国</font>计算机学会“多智能体研究优秀博士论文奖”</a><a href="https://mp.weixin.qq.com/s/X7RS9YY_BaNwTEvJQEXunA" target="_blank">（当年度全国唯一）</a>、<a href="./images/202007-优秀毕业生-北京市教育委员会.pdf" target="_blank"><font class="bold_text">北京市</font>“优秀毕业生”（当年度北大网络所唯一博士）</a>、<a href="./images/华为——创新先锋一等奖.pdf" target="_blank"><font class="bold_text">华为</font>“创新先锋总裁奖”（当年度仅次于盘古大模型）</a>。<a href="https://scholar.google.com/citations?user=EtVHsgcAAAAJ" target="_blank">在NeurIPS/ICML/ICLR/AAAI/IJCAI/KDD/AAMAS等CCF-A/B类会议和期刊上发表论文30余篇，申请美国专利和华为潜在高价值专利多项</a>，相关研究在多个场景落地并产生较大效益。连续多年<a href="https://ijcai-23.org/spc-member-list/" target="_blank">担任上述会议的PC或SPC</a>，以及<a href="./images/20230731-多智能体学组执行委员.pdf" target="_blank">CCF多智能体学组执行委员</a>。</b>
+					</p>
+					<p align="justify">
+						<b>Thanks for visiting Hangyu Mao's Homepage. I focus on research topics like Large Language Model (LLM), Reinforcement Learning (RL), and Multi-Agent Reinforcement Learning (MARL). I serve as the (<a href="https://ijcai-23.org/spc-member-list/" target="_blank">senior</a>) program-committee-member of top AI conferences like <a href="https://nips.cc/Conferences/2022/ProgramCommittee" target="_blank">NeurIPS</a>/<a href="https://icml.cc/Conferences/2022/Reviewers" target="_blank">ICML</a> and <a href="https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf" target="_blank">AAAI</a>/<a href="https://ijcai-22.org/pc-members/" target="_blank">IJCAI</a>, and the <a href="./images/20230731-多智能体学组执行委员.pdf" target="_blank">executive-committee-member</a> of CCF-AI-MAS.</b> <!-- <b> makes the text color to black rather than the default gray -->
+					</p>
+					<p align="justify">
+						<b><font class="bold_text" color="red"><a href="mailto:hy.mao@pku.edu.cn">I am looking for self-motivated interns. If interested, please drop me an email: hy.mao@pku.edu.cn.</a></font></b>
+					</p>
+					
+				</div>
+			</section>
+
+			<!-- Education
+			<section id="education" class="four">
+				<div class="container">
+					
+					<header>
+						<h2>Education Experience</h2>
+					</header>
+
+					<table border="1" width="100%" style="border-collapse: collapse">
+						<tbody>
+							<tr style="background-color:#F5F5F5">
+								<td align="center" width="25%">
+									<a href="https://www.pku.edu.cn/" target="_blank"><img border="0" src="./images/pku.png" width="156"></a>
+									<p>
+										<b>Ph.D. @ <a href="https://www.pku.edu.cn/" target="_blank">PKU</a>
+										<br>Sept. 2015 - Jul. 2020</b>
+									</p>
+								</td>
+								<td width="75%" align="justify">
+									<li align="justify" type="square">
+										<b>School of Electronics Engneering and Computer Science</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Institute of Network Computing and Information Systems</b>
+									</li>
+									<li align="justify" type="square">
+										<b><font color="red" class="bold_text">Rank 1st</font> among all students in our institute</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Research Focus: Multi-Agent Reinforcement Learning</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Advisor: Prof. <a href="http://zhenxiao.com/team/" target="_blank">Zhen Xiao</a></b>
+									</li>
+									<li align="justify" type="square">
+										<b><a href="./images/202006-优秀毕业生-北京大学.pdf" target="_blank">"Excellent Graduate" by PKU</a></b>
+									</li>
+									<li align="justify" type="square">
+										<b><a href="http://zhenxiao.com/awards/%E4%BC%98%E7%A7%80%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87%E5%A5%96.jpg" target="_blank">"Excellent Doctoral Thesis Award" by China Computer Federation (CCF)</a></b>
+									</li>
+								</td>
+							</tr>									
+							<tr style="background-color:#EEEEEE">
+								<td align="center" width="25%">
+									<a href="https://www.nuaa.edu.cn/" target="_blank"><img border="0" src="./images/nuaa.png" width="166"></a>
+									<p>
+										<b>B.S. @ <a href="https://www.nuaa.edu.cn/" target="_blank">NUAA</a>
+										<br>Sept. 2011 - Jul. 2015</b>
+									</p>
+								</td>
+								<td width="75%" align="justify">
+									<li align="justify" type="square">
+										<b>School of Computer Science and Technology</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Department of Software Engineering</b>
+									</li>
+									<li align="justify" type="square">
+										<b><font color="red" class="bold_text">Rank 1st</font> among all students in our department</b>
+									</li>
+									<li align="justify" type="square">
+										<b><a href="./images/201412-南航国家奖学金.jpg" target="_blank">"National Scholarship" by NUAA</a></b>
+									</li>
+								</td>
+							</tr>									
+						</tbody>
+					</table>
+					
+				</div>
+			</section>
+			-->
+
+			<!-- Selected Award
+			<section id="award" class="four">
+				<div class="container">
+				
+					<header>
+						<h2>Selected Award</h2>
+					</header>
+
+					<div align="left" style="text-align:left;">
+						<li align="justify" type="square">
+							<b><a href="./images/2024-商汤002号嘉奖.jpg" target="_blank">2024年03月：商汤</a><a href="./images/2024-商汤002号嘉奖-未来之星.jpg" target="_blank">-培养1名未来之星（整个集团7个名额）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b>2024年01月：商汤-研究开发部门优秀项目奖（Q4季度，Top1）</b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/2023-商汤奖学金.jpg" target="_blank">2023年10月：商汤奖学金-评委（商汤17人+上海人工智能实验室13人）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b>2023年09月：商汤-研究开发部门优秀项目奖（Q2/Q3季度，Top2）</b>
+						</li>
+						<li align="justify" type="square">
+							<b>2022年08月：华为-芯星奖</b>
+						</li>
+						<li align="justify" type="square">
+							<b>2022年05月：华为-2012之星</b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="https://mp.weixin.qq.com/s/v91S0TJRyXWgyCK6XU6e4w" target="_blank">2021年11月：</a><a href="https://www.aicrowd.com/challenges/neurips-2020-minerl-competition/leaderboards" target="_blank">NeurIPS20-MineRL国际竞赛冠军</a><a href="./images/华为——MineRL冠军.pdf" target="_blank">（团队负责人）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/华为——创新先锋一等奖.pdf" target="_blank">2021年08月：</a><a href="./images/华为——创新先锋一等奖正面.jpg" target="_blank">华为-创新先锋总裁奖-一等奖（Top 2，另一个是“华为盘古大模型”）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="http://zhenxiao.com/awards/%E4%BC%98%E7%A7%80%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87%E5%A5%96.jpg" target="_blank">2021年07月：中国计算机学会人工智能专委会-多智能体研究优秀博士论文奖</a><a href="https://mp.weixin.qq.com/s/X7RS9YY_BaNwTEvJQEXunA" target="_blank">（全国唯一）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/华为——明日之星.pdf" target="_blank">2020年12月：华为-明日之星</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/华为——优秀实习生.pdf" target="_blank">2020年07月：华为-优秀实习生（Top 10/~200）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/202007-优秀毕业生-北京市教育委员会.pdf" target="_blank">2020年07月：北京市-优秀毕业生（北大网络所唯一）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/202006-优秀毕业生-北京大学.pdf" target="_blank">2020年06月：北京大学-优秀毕业生</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/华为——创新先锋三等奖正面.jpg" target="_blank">2019年12月：华为-创新先锋总裁奖-三等奖（Top 13/~500，唯一实习生）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201912-北大优秀科研奖.pdf" target="_blank">2019年12月：北京大学-优秀科研奖（Top 10%）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201912-网络所明略科技创新奖学金.pdf" target="_blank">2019年12月：北京大学网络所-明略科技创新奖学金</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201903-信科天创奖学金.pdf" target="_blank">2019年03月：北京大学信科学院-天创奖学金</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201812-北大优秀科研奖.pdf" target="_blank">2018年12月：北京大学-优秀科研奖（Top 10%）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201812-网络所秒针创新奖学金.pdf" target="_blank">2018年12月：北京大学网络所-秒针创新奖学金</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201712-北大优秀科研奖.pdf" target="_blank">2017年12月：北京大学-优秀科研奖（Top 10%）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201712-网络所智唐科技奖学金.pdf" target="_blank">2017年12月：北京大学网络所-智唐科技奖学金</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201412-南航国家奖学金.jpg" target="_blank">2014年12月：南京航空航天大学-国家奖学金（Top 1%）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="http://newsweb.nuaa.edu.cn/2014/0504/c740a32786/pagem.htm" target="_blank">2014年04月：南京航空航天大学-第九届程序设计竞赛-一等奖（3/~150）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="http://nuaa.ihwrm.com/index/article/articleinfo/doc_id/945262.html" target="_blank">2013年12月：南京航空航天大学-三好学生标兵（Top 1%）</a></b>
+						</li>
+						<li align="justify" type="square">
+							<b><a href="./images/201211-南航年度特别嘉奖之知行奖.pdf" target="_blank">2012年11月：南京航空航天大学-年度特别嘉奖之知行奖（Top 0.5%，最小年龄）</a></b>
+						</li>
+					</div>
+					
+				</div>
+			</section>
+			-->
+
+			<!-- Work
+			<section id="work" class="four">
+				<div class="container">
+				
+					<header>
+						<h2>Selected Work Experience</h2>
+					</header>
+
+					<table border="1" width="100%" style="border-collapse: collapse">
+						<tbody>
+							<tr style="background-color:#F5F5F5">
+								<td align="center" width="25%">
+									<a href="https://www.sensetime.com/cn" target="_blank"><img border="0" src="./images/sensetime.png" width="136"></a>
+									<p>
+										<b>Principal Researcher (资深算法研究员)
+										<br>Dec. 2022 - now</b>
+									</p>
+								</td>
+								<td width="75%" align="justify">
+									<li align="justify" type="square">
+										<b>在算法研究、项目支撑之外，我还参与<a href="./images/2023-商汤奖学金.jpg" target="_blank">商汤奖学金评审</a>、研究开发部门的立项和结项评审等事情。下面是我自己在推动的项目：</b>
+									</li>
+									
+									<hr size='4' color='black' />
+									
+									<li align="justify" type="square">
+										<b>Task: Confidential Project about LLM.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Project Manager.</b>
+									</li>
+									
+									<hr size='4' color='black' />
+									
+									<li align="justify" type="square">
+										<b>Time: May 2023 - Mar. 2024</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Task: LLM-based AI Agent for Complex Task Automation.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Project Manager.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: Improve the operation efficiency by 35%-70% in BAIFUZHANG - a commercial security system.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: <a href="https://paperswithcode.com/sota/text-to-sql-on-spider" target="_blank">Achieve Best Results for LLM-based Text-to-SQL</a> <a href="https://yale-lily.github.io/spider" target="_blank">on Spider Leaderboard (Up to 03/2024)</a>.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: "R&D Excellent Project" in 2023 (Top 7/50+).</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: <a href="./images/2024-商汤002号嘉奖.jpg" target="_blank">培养1名杰出个人和</a><a href="./images/2024-商汤002号嘉奖-未来之星.jpg" target="_blank">1名未来之星（整个集团7个名额）</a>.</b>
+									</li>
+									
+									<hr size='4' color='black' />
+									
+									<li align="justify" type="square">
+										<b>Time: Dec. 2022 - May 2023.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Task: RL-based Traffic Signal Control.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Technology Leader.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: Decrease ~10% travel time in real-world scenarios (at Shaoxing City, Zhejiang Province, China).</b>
+									</li>
+									<p> </p>
+								</td>
+							</tr>
+							<tr style="background-color:#EEEEEE">
+								<td align="center" width="25%">
+									<a href="https://www.huawei.com/en/corporate-information" target="_blank"><img border="0" src="./images/huawei.png" width="156"></a>
+									<a href="https://noahlab.com.hk/" target="_blank"><img border="0" src="./images/huawei_noah.jpg" width="156"></a>
+									<p>
+										<b>Senior, then promoted to Principal Researcher (高级，主任研究员)
+										<br>Jul. 2020 - Dec. 2022</b>
+									</p>
+								</td>
+								<td width="75%" align="justify">
+									<li align="justify" type="square">
+										<b>Time: Jul. 2020 - Sept. 2022.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Task: RL-based Chip Test Case Generation.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Project Manager (Project ID: 9433586).</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: Achieve 100% coverage rate automatically for the first time and save 90% test cases at the same time in real systems.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: <a href="./images/华为——创新先锋一等奖正面.jpg" target="_blank">First prize of "Innovation Pioneer President Award" (Top 2/500)</a>.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: 2012 STAR.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: STAR of HISILICON.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: "Excellent Project" in Noah's Ark Lab in 2022 (Top 5/50+).</b>
+									</li>
+									
+									<hr size='4' color='black' />
+									
+									<li align="justify" type="square">
+										<b>Time: Nov. 2021 - Sept. 2022.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Task: RL-based Automatic Driving Optimization.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Team Member.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: Achieve similar performance as commercial methods.</b>
+									</li>
+									
+									<hr size='4' color='black' />
+									
+									<li align="justify" type="square">
+										<b>Time: Apr. 2021 - Aug. 2021.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Task: RL-based Large Language Model Parameter Optimization.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Team Leader.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: <a href="https://convlab.github.io/" target="_blank">Improve the success rate of the GPT-based dialog system from 90.4% to 94.8%, which is better than the best public score 93.0%</a>.</b>
+									</li>
+									
+									<hr size='4' color='black' />
+									
+									<li align="justify" type="square">
+										<b>Time: Jul. 2020 - Feb. 2021.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Task: NeurIPS MineRL Competition.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Team Leader.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: <a href="https://www.aicrowd.com/challenges/neurips-2020-minerl-competition/leaderboards" target="_blank">Rank 1st among 90+ teams and 700+ users (39.55 v.s 13.29)</a>.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: <a href="./images/华为——MineRL冠军.pdf" target="_blank">First Place Award</a>.</b>
+									</li>
+									<p> </p>
+								</td>
+							</tr>
+							<tr style="background-color:#F5F5F5">
+								<td align="center" width="25%">
+									<a href="https://www.huawei.com/en/corporate-information" target="_blank"><img border="0" src="./images/huawei.png" width="156"></a>
+									<a href="https://noahlab.com.hk/" target="_blank"><img border="0" src="./images/huawei_noah.jpg" width="156"></a>
+									<p>
+										<b>Research Intern
+										<br>Jun. 2019 - Oct. 2019</b>
+									</p>
+								</td>
+								<td width="75%" align="justify">
+									<li align="justify" type="square">
+										<b>Task: MARL-based Wi-Fi Parameter Optimization.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Team Leader.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: Control large-scale agents for the first time.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: <a href="./images/华为——创新先锋三等奖正面.jpg" target="_blank">Third prize of "Innovation Pioneer President Award" (Top 13/500)</a>.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: <a href="./images/华为——优秀实习生.pdf" target="_blank">"Excellent Intern" (Top 10/200)</a>.</b>
+									</li>
+									<p> </p>
+								</td>
+							</tr>									
+							<tr style="background-color:#EEEEEE">
+								<td align="center" width="25%">
+									<a href="https://www.huawei.com/en/corporate-information" target="_blank"><img border="0" src="./images/huawei.png" width="166"></a>
+									<p>
+										<b>School-Enterprise Cooperation
+										<br>Jan. 2017 - Jan. 2019</b>
+									</p>
+								</td>
+								<td width="75%" align="justify">
+									<li align="justify" type="square">
+										<b>Task: MARL-based Network Traffic Control.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>My Role: Team Leader.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Result: Improve baselines by 30%+.</b>
+									</li>
+									<li align="justify" type="square">
+										<b>Award: Granted 1,000,000-CNY and "Excellent Project".</b>
+									</li>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+				</div>
+			</section>
+			-->
+
+			<!-- Publication List -->
+			<section id="publication" class="four">
+				<div class="container">
+
+					<header>
+						<h2>Selected Publication</h2>
+					</header>
+					
+					
+					<b><font class="bold_text">LLM Research: Agents with Task Planning and Tool Usage</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach. LLMAgents Workshop at ICLR 2024.
+						</li>
+						<li align="justify">
+							TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems. LLMAgents Workshop at ICLR 2024.
+						</li>
+						<li align="justify">
+							TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents. FMDM Workshop at NeurIPS 2023.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">LLM Applications: Text-to-SQL</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency. Arxiv 2024.
+						</li>
+						<li align="justify">
+							Benchmarking the Text-to-SQL Capability of Large Language Models: A Comprehensive Evaluation. Arxiv 2024.
+						</li>
+						<li align="justify">
+							Reboost Large Language Model-based Text-to-SQL, Text-to-Python, and Text-to-Function - with Real Applications in Traffic Domain. Arxiv 2023.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">Transformer-based RL and MARL</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							CoSLight: Co-optimizing Collaborator Selection and Decision-making to Enhance Traffic Signal Control. KDD 2024.
+						</li>
+						<li align="justify">
+							Sequential Asynchronous Action Coordination in Multi-Agent Systems: A Stackelberg Decision Transformer Approach. ICML 2024.
+						</li>
+						<li align="justify">
+							X-Light: Cross-City Traffic Signal Control Using Transformer on Transformer as Meta Multi-Agent Reinforcement Learner. IJCAI 2024.
+						</li>
+						<li align="justify">
+							PDiT: Interleaving Perception and Decision-making Transformers for Deep Rinforcement Learning. AAMAS 2024.
+						</li>
+						<li align="justify">
+							Transformer in Transformer as Backbone for Deep Reinforcement Learning. Arxiv 2022.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Research: <font color="red">Noval Perspectives</font> for Cooperation</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							Sequential <font color="red">Asynchronous Action Coordination</font> in Multi-Agent Systems: A Stackelberg Decision Transformer Approach. ICML 2024.
+						</li>
+						<li align="justify">
+							PTDE: <font color="red">Personalized Training</font> with Distilled Execution for Multi-Agent Reinforcement Learning. IJCAI 2024.
+						</li>
+						<li align="justify">
+							Boosting Multiagent Reinforcement Learning via <font color="red">Permutation Invariant</font> and Permutation Equivariant Networks. ICLR 2023.
+						</li>
+						<li align="justify">
+							Multiagent Q-learning with <font color="red">Sub-Team Coordination</font>. NeurIPS 2022.
+						</li>
+						<li align="justify">
+							SEIHAI: A Sample-Efficient <font color="red">Hierarchical AI</font> for the <font color="red">MineRL</font> Competition. DAI 2021.
+						</li>
+						<li align="justify">
+							Learning Agent <font color="red">Communication under Limited Bandwidth</font> by Message Pruning. AAAI 2020.
+						</li>
+						<li align="justify">
+							<font color="red">Neighborhood Cognition Consistent</font> Multi-Agent Reinforcement Learning. AAAI 2020.
+						</li>
+						<li align="justify">
+							Modelling the Dynamic Joint Policy of Teammates with <font color="red">Attention</font> Multi-Agent DDPG. AAMAS 2019.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Research: Grouping for Cooperation</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							CoSLight: Co-optimizing Collaborator Selection and Decision-making to Enhance Traffic Signal Control. KDD 2024.
+						</li>
+						<li align="justify">
+							Learning to Collaborate by Grouping: a Consensus-oriented Strategy for Multi-agent Reinforcement Learning. ECAI 2023.
+						</li>
+						<li align="justify">
+							Multiagent Q-learning with Sub-Team Coordination. NeurIPS 2022.
+						</li>
+						<li align="justify">
+							Structural Relational Inference Actor-Critic for Multi-Agent Reinforcement Learning. Neurocomputing 2021.
+						</li>
+						<li align="justify">
+							Neighborhood Cognition Consistent Multi-Agent Reinforcement Learning. AAAI 2020.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Research: Cognition Consistency for Cooperation</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							Common Belief Multi-Agent Reinforcement Learning Based on Variational Recurrent Models. Neurocomputing 2022.
+						</li>
+						<li align="justify">
+							Neighborhood Cognition Consistent Multi-Agent Reinforcement Learning. AAAI 2020.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Research: Attention Mechanism for Cooperation</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							Learning Multi-Agent Communication with Double Attentional Deep Reinforcement Learning. JAAMAS 2020.
+						</li>
+						<li align="justify">
+							Modelling the Dynamic Joint Policy of Teammates with Attention Multi-Agent DDPG. AAMAS 2019.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Research: Communication for Cooperation</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							Learning Multi-Agent Communication with Double Attentional Deep Reinforcement Learning. JAAMAS 2020.
+						</li>
+						<li align="justify">
+							Learning Agent Communication under Limited Bandwidth by Message Pruning. AAAI 2020.
+						</li>
+						<li align="justify">
+							Learning Multi-Agent Communication under Limited-Bandwidth Restriction for Internet Packet Routing. Arxiv 2019.
+						</li>
+						<li align="justify">
+							Actor-Coordinator-Critic Net for "Learning-to-Communicate" with Deep Multi-agent Reinforcement Learning. Arxiv 2017.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Applications: Traffic Signal Controlling</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							CoSLight: Co-optimizing Collaborator Selection and Decision-making to Enhance Traffic Signal Control. KDD 2024.
+						</li>
+						<li align="justify">
+							X-Light: Cross-City Traffic Signal Control Using Transformer on Transformer as Meta Multi-Agent Reinforcement Learner. IJCAI 2024.
+						</li>
+						<li align="justify">
+							A General Scenario-Agnostic Reinforcement Learning for Traffic Signal Control. IEEE Transactions on Intelligent Transportation Systems 2024.
+						</li>
+						<li align="justify">
+							DuaLight: Enhancing Traffic Signal Control by Leveraging Scenario-Specific and Scenario-Shared Knowledge. AAMAS 2024.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Applications: Cloud Resource Scheduling</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							A Dual-Agent Scheduler for Distributed Deep Learning Jobs on Public Cloud via Reinforcement Learning. KDD 2023.
+						</li>
+						<li align="justify">
+							Fast and Fine-grained Autoscaler for Streaming Jobs with Reinforcement Learning. IJCAI 2022.
+						</li>
+					</ol>
+					
+					<b><font class="bold_text">MARL Applications: Internet Packet Routing</font></b>
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							Reward Design in Cooperative Multi-Agent Reinforcement Learning for Packet Routing. Arxiv 2020.
+						</li>
+						<li align="justify">
+							Learning Multi-Agent Communication under Limited-Bandwidth Restriction for Internet Packet Routing. Arxiv 2019.
+						</li>
+					</ol>
+					
+					<hr size='4' color='black' />
+					
+					<ol align="left" style="text-align:left;">
+						<li align="justify" type="square">
+							<b><font class="bold_text">Full List on Google Scholar:</font><a href="https://scholar.google.com/citations?user=EtVHsgcAAAAJ" target="_blank"> https://scholar.google.com/citations?user=EtVHsgcAAAAJ</a></b>
+						</li>
+						* means equal contribution <br/>
+						** means corresponding author
+					</ol>
+					
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							<b>Ziyue Li, Haoyuan Jiang, Hua Wei, Xuantang Xiong, Jingqing Ruan, Jiaming Lu, <font class="bold_text">Hangyu Mao</font>, and Rui Zhao. X-Light: Cross-City Traffic Signal Control Using Transformer on Transformer as Meta Multi-Agent Reinforcement Learner. <font class="bold_text">AIforCI Workshop at IJCAI 2024 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Jingqing Ruan, Ziyue Li**, Hua Wei, Haoyuan Jiang, Jiaming Lu, Xuantang Xiong, <font class="bold_text">Hangyu Mao**</font>, Rui Zhao. CoSLight: Co-optimizing Collaborator Selection and Decision-making to Enhance Traffic Signal Control. <font class="bold_text">KDD 2024 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Bin Zhang, <font class="bold_text">Hangyu Mao</font>, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan. Sequential Asynchronous Action Coordination in Multi-Agent Systems: A Stackelberg Decision Transformer Approach. <font class="bold_text">ICML 2024 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Yiqun Chen, <font class="bold_text">Hangyu Mao</font>, Jiaxin Mao, Shiguang Wu, Tianle Zhang, Bin Zhang, Wei Yang, and Hongxing Chang. PTDE: Personalized Training with Distilled Execution for Multi-Agent Reinforcement Learning. <font class="bold_text">IJCAI 2024 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Haoyuan Jiang, Ziyue Li, Hua Wei, Xuantang Xiong, Jingqing Ruan, Jiaming Lu, <font class="bold_text">Hangyu Mao</font>, and Rui Zhao. X-Light: Cross-City Traffic Signal Control Using Transformer on Transformer as Meta Multi-Agent Reinforcement Learner. <font class="bold_text">IJCAI 2024 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Haoyuan Jiang, Ziyue Li, Zhishuai Li, Lei Bai, <font class="bold_text">Hangyu Mao</font>, Wolfgang Ketter, and Rui Zhao. A General Scenario-Agnostic Reinforcement Learning for Traffic Signal Control. <font class="bold_text">TITS 2024 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b>Bin Zhang, <font class="bold_text">Hangyu Mao**</font>, Jingqing Ruan, Ying Wen, Yang Li, Shao Zhang, Zhiwei Xu, Dapeng Li, Ziyue Li, Rui Zhao, Lijuan Li, and Guoliang Fan. Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach. <font class="bold_text">LLMAgents Workshop at ICLR 2024.</font></b>
+						</li>
+						<li align="justify">
+							<b>Yilun Kong*, Jingqing Ruan*, Yihong Chen*, Bin Zhang*, Tianpeng Bao*, Shiwei Shi*, Guoqing Du*, Xiaoru Hu*, <font class="bold_text">Hangyu Mao*|**</font>, Ziyue Li, Xingyu Zeng, Rui Zhao, and Xueqian Wang. TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems. <font class="bold_text">LLMAgents Workshop at ICLR 2024.</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Rui Zhao, Ziyue Li, Zhiwei Xu, Hao Chen, Yiqun Chen, Bin Zhang, Zhen Xiao, Junge Zhang, and Jiangjin Yin. PDiT: Interleaving Perception and Decision-making Transformers for Deep Rinforcement Learning. <font class="bold_text">AAMAS 2024 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b>Jiaming Lu, Jingqing Ruan, Haoyuan Jiang, Ziyue Li, <font class="bold_text">Hangyu Mao</font>, and Rui Zhao. DuaLight: Enhancing Traffic Signal Control by Leveraging Scenario-Specific and Scenario-Shared Knowledge. <font class="bold_text">AAMAS 2024 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b>Jingqing Ruan*, Yihong Chen*, Bin Zhang*, Zhiwei Xu*, Tianpeng Bao*, Guoqing Du*, Shiwei Shi*, <font class="bold_text">Hangyu Mao*|**</font>, Xingyu Zeng, and Rui Zhao. TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents. <font class="bold_text">FMDM Workshop at NeurIPS 2023 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Shaokang Dong, <font class="bold_text">Hangyu Mao</font>, Shangdong Yang, Shengyu Zhu, Wenbin Li, Jianye Hao, and Yang Gao. Learning When to Explore in Multi-Agent Reinforcement Learning. <font class="bold_text">TCYB 2023 (CCF-B).</font></b>
+						</li>						
+						<li align="justify">
+							<b>Jingqing Ruan, Xiaotian Hao, Dong Li, and <font class="bold_text">Hangyu Mao</font>. Learning to Collaborate by Grouping: a Consensus-oriented Strategy for Multi-agent Reinforcement Learning. <font class="bold_text">ECAI 2023 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b>Mingzhe Xing, <font class="bold_text">Hangyu Mao</font>, Shenglin Yin, Lichen Pang, Zhengchao Zhang, Zhen Xiao, and Jieyi Long. A Dual-Agent Scheduler for Distributed Deep Learning Jobs on Public Cloud via Reinforcement Learning. <font class="bold_text">KDD 2023 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>郝建业, 邵坤, 李凯, 李栋, <font class="bold_text">毛航宇</font>, 胡舒悦, 王震. 博弈智能的研究与应用. <font class="bold_text">中国科学:信息科学 2023 (中文刊物CCF-T1).</font></b>
+						</li>
+						<li align="justify">
+							<b>Jianye Hao, Xiaotian Hao, <font class="bold_text">Hangyu Mao</font>, Weixun Wang, Yaodong Yang, Dong Li, Yan Zheng, and Zhen Wang. Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks. <font class="bold_text">ICLR 2023.</font></b>
+						</li>
+						<li align="justify">
+							<b>Ming Yan, Junjie Chen*, <font class="bold_text">Hangyu Mao*</font>, Jiajun Jiang, Jianye Hao, Xingjian Li, Zhao Tian, Zhichao Chen, Dong Li, Zhangkong Xian, Yanwei Guo, Wulong Liu, Bin Wang, Yuefeng Sun, and Yongshun Cui. Achieving Last-Mile Functional Coverage in Testing Chip Design Software Implementations. <font class="bold_text">ICSE 2023 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Xianjie Zhang, Yu Liu, <font class="bold_text">Hangyu Mao</font>, and Chao Yu. Common Belief Multi-Agent Reinforcement Learning Based on Variational Recurrent Models. <font class="bold_text">Neurocomputing 2022 (CCF-C).</font></b>
+						</li>
+						<li align="justify">
+							<b>Wenhan Huang, Kai Li, Kun Shao, Tianze Zhou, Matthew E. Taylor, Jun Luo, Dongge Wang, <font class="bold_text">Hangyu Mao</font>, Jianye Hao, Jun Wang, and Xiaotie Deng. Multiagent Q-learning with Sub-Team Coordination. <font class="bold_text">NeurIPS 2022 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Lichen Pan, Jun Qian, Wei Xia, <font class="bold_text">Hangyu Mao</font>, Jun Yao, PengZe Li, and Zhen Xiao. <a href="https://github.com/huawei-noah/xingtian" target="_blank">Optimizing Communication in Deep Reinforcement Learning with XingTian.</a> <font class="bold_text">Middleware 2022 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b>Jinpeng Li, Guangyong Chen, <font class="bold_text">Hangyu Mao</font>, Danruo Deng, Dong Li, Jianye Hao, Qi Dou, and Pheng-Ann Heng. Flat-aware Cross-stage Distilled Framework for Imbalanced Medical Image Classification. <font class="bold_text">MICCAI 2022 (CCF-B).</font> <font class="bold_text" color="red">Provisional Accept Recommendation (Top 13%).</font></b>
+						</li>
+						<li align="justify">
+							<b>Mingzhe Xing, <font class="bold_text">Hangyu Mao</font>, and Zhen Xiao. Fast and Fine-grained Autoscaler for Streaming Jobs with Reinforcement Learning. <font class="bold_text">IJCAI 2022 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Hongyao Tang, Zhaopeng Meng, Jianye Hao, Chen Chen, Daniel Graves, Dong Li, Changmin Yu, <font class="bold_text">Hangyu Mao</font>, Wulong Liu, Yaodong Yang, Wenyuan Tao, and Li Wang. What About Inputing Policy in Value Function: Policy Representation and Policy-Extended Value Function Approximator. <font class="bold_text">AAAI 2022 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Wenhan Huang, Kai Li, Kun Shao, Tianze Zhou, Jun Luo, Dongge Wang, <font class="bold_text">Hangyu Mao</font>, Jianye Hao, Jun Wang, and Xiaotie Deng. Multiagent Q-learning with Sub-Team Coordination. <font class="bold_text">Extended Abstract at AAMAS 2022 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao*</font>, Chao Wang*, Xiaotian Hao*, Yihuan Mao*, Yiming Lu*, Chengjie Wu*, Jianye Hao, Dong Li, and Pingzhong Tang. SEIHAI: A Sample-Efficient Hierarchical AI for the MineRL Competition. <font class="bold_text">DAI 2021.</font> <font class="bold_text" color="red">Champion Solution for NeurIPS20 MineRL Competition (Top 1 among 90+ teams).</font></b>
+						</li>
+						<li align="justify">
+							<b>Tianpei Yang*, Weixun Wang*, Hongyao Tang*, Jianye Hao, Zhaopeng Meng, <font class="bold_text">Hangyu Mao</font>, Dong Li, Wulong Liu, Chengwei Zhang, Yujing Hu, Yingfeng Chen, and Changjie Fan. An Efficient Transfer Learning Framework for Multiagent Reinforcement Learning. <font class="bold_text">NeurIPS 2021 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Xianjie Zhang, Yu Liu, Xiujuan Xu, Qiong Huang, <font class="bold_text">Hangyu Mao</font>, and Anil Carie. Structural Relational Inference Actor-Critic for Multi-Agent Reinforcement Learning. <font class="bold_text">Neurocomputing 2021 (CCF-C).</font></b>
+						</li>
+						<li align="justify">
+							<b>Changmin Yu, Dong Li, <font class="bold_text">Hangyu Mao</font>, Jianye Hao, and Neil Burgess. Learning State Representations via Temporal Cycle-Consistency Constraint in Model-Based Reinforcement Learning. <font class="bold_text">SSL-RL Workshop at ICLR 2021.</font></b>
+						</li>
+						<li align="justify">
+							<b>Guss William Hebgen, ..., <font class="bold_text">Hangyu Mao</font>, ..., et al. Towards Robust and Domain Agnostic Reinforcement Learning Competitions: MineRL 2020. <font class="bold_text">NeurIPS 2020 Competition and Demonstration Track (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Zhengchao Zhang, Zhen Xiao, Zhibo Gong, and Yan Ni. Learning Multi-Agent Communication with Double Attentional Deep Reinforcement Learning. <font class="bold_text">JAAMAS 2020 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Wulong Liu, Jianye Hao, Jun Luo, Dong Li, Zhengchao Zhang, Jun Wang, and Zhen Xiao. Neighborhood Cognition Consistent Multi-Agent Reinforcement Learning. <font class="bold_text">AAAI 2020 (CCF-A).</font> <font class="bold_text" color="red">Long Oral Presentation (Top 5%).</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Zhengchao Zhang, Zhen Xiao, Zhibo Gong, and Yan Ni. Learning Agent Communication under Limited Bandwidth by Message Pruning. <font class="bold_text">AAAI 2020 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Zhengchao Zhang, Zhen Xiao, and Zhibo Gong. Modelling the Dynamic Joint Policy of Teammates with Attention Multi-Agent DDPG. <font class="bold_text">AAMAS 2019 (CCF-B).</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Yang Xiao, Yuan Wang, Jiakang Wang, and Zhen Xiao. Topic-Specific Retweet Count Ranking for Weibo. <font class="bold_text">PAKDD 2018 (CCF-C).</font></b>
+						</li>
+						<li align="justify">
+							<b>Yuan Wang, <font class="bold_text">Hangyu Mao</font>, and Zhen Xiao. Identifying Influential Users’ Professions via the Microblogs They Forward. <font class="bold_text">SocInf Workshop at IJCAI 2017 (CCF-A).</font></b>
+						</li>
+						<li align="justify">
+							<b>Yang Xiao, Yuan Wang, <font class="bold_text">Hangyu Mao</font>, and Zhen Xiao. Predicting Restaurant Consumption Level through Social Media Footprints. <font class="bold_text">COLING 2016 (CCF-B).</font></b>
+						</li>
+					</ol>
+					
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							<b>Zhishuai Li*, Xiang Wang*, Jingjing Zhao*, Sun Yang*, Guoqing Du*, Xiaoru Hu*, Bin Zhang*, Yuxiao Ye*, Ziyue Li, Rui Zhao, and <font class="bold_text">Hangyu Mao**</font>. PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency. <font class="bold_text">Arxiv 2024.</font></b>
+						</li>
+						<li align="justify">
+							<b>Bin Zhang*, Yuxiao Ye*, Guoqing Du*, Xiaoru Hu*, Zhishuai Li*, Sun Yang*, Chi Harold Liu, Rui Zhao, Ziyue Li, and <font class="bold_text">Hangyu Mao**</font>. Benchmarking the Text-to-SQL Capability of Large Language Models: A Comprehensive Evaluation. <font class="bold_text">Arxiv 2024.</font></b>
+						</li>
+						<li align="justify">
+							<b>Guanghu Sui*, Zhishuai Li*, Ziyue Li, Sun Yang, Jingqing Ruan, <font class="bold_text">Hangyu Mao</font>, and Rui Zhao. Reboost Large Language Model-based Text-to-SQL, Text-to-Python, and Text-to-Function - with Real Applications in Traffic Domain. <font class="bold_text">Arxiv 2023.</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Rui Zhao, Hao Chen, Jianye Hao, Yiqun Chen, Dong Li, Junge Zhang, and Zhen Xiao. Transformer in Transformer as Backbone for Deep Reinforcement Learning. <font class="bold_text">Arxiv 2022.</font></b>
+						</li>
+						<li align="justify">
+							<b>Tianze Zhou, Fubiao Zhang, Kun Shao, Kai Li, Wenhan Huang, Jun Luo, Weixun Wang, Yaodong Yang, <font class="bold_text">Hangyu Mao</font>, Bin Wang, Dong Li, Wulong Liu, and Jianye Hao. Cooperative Multi-Agent Transfer Learning with Level-Adaptive Credit Assignment. <font class="bold_text">Arxiv 2021.</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Zhibo Gong, and Zhen Xiao. Reward Design in Cooperative Multi-Agent Reinforcement Learning for Packet Routing. <font class="bold_text">Arxiv 2020.</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Zhibo Gong, Zhengchao Zhang, Zhen Xiao, and Yan Ni. Learning Multi-Agent Communication under Limited-Bandwidth Restriction for Internet Packet Routing. <font class="bold_text">Arxiv 2019.</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Zhibo Gong, Yan Ni, and Zhen Xiao. Actor-Coordinator-Critic Net for "Learning-to-Communicate" with Deep Multi-agent Reinforcement Learning. <font class="bold_text">Arxiv 2017.</font></b>
+						</li>
+					</ol>
+					
+					<ol align="left" style="text-align:left;">
+						<li align="justify">
+							<b><font class="bold_text">Hangyu Mao</font>, Wulong Liu, and Jianye Hao. Agent Training Method, Apparatus, and Computer-readable Storage Medium. U.S. Application No. 17877063, issued on Nov. 17, 2022. <font class="bold_text"  color="red">US Patent.</font></b>
+						</li>
+						<li align="justify">
+							<b> <font class="bold_text">毛航宇</font>、郭艳伟、冼章孔。确定芯片测试的输入的方法和装置。专利号：202210626411.6。<font class="bold_text"  color="red">已集成到实际产品。</font></b>
+						</li>
+						<li align="justify">
+							<b> 陈俊洁、<font class="bold_text">毛航宇</font>、郝建业、孙月凤、姜佳君。一种芯片的测试用例生成方法、装置及存储介质。专利号：202111663515.6。<font class="bold_text"  color="red">已集成到实际产品。2022年4月被评为华为“潜在高价值”专利。</font></b>
+						</li>
+						<li align="justify">
+							<b> 张正超、肖臻、<font class="bold_text">毛航宇</font>、潘丽晨。一种基于深度强化学习的集群资源管理和任务调度方法及系统。专利号：202010581407.3。</b>
+						</li>
+						<li align="justify">
+							<b>潘丽晨、<font class="bold_text">毛航宇</font>、肖臻、张正超。基于多智能体深度强化学习的集群资源调度方法及系统。专利号：202010322543.0。</b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">毛航宇</font>、刘武龙、郝建业。训练智能体的方法和装置。专利号：202010077714.8。<font class="bold_text"  color="red">已集成到实际产品。已申请国际专利。</font></b>
+						</li>
+						<li align="justify">
+							<b><font class="bold_text">毛航宇</font>、张正超、肖臻、倪炎、龚志波。流量调度方法及装置。专利号：201811505121.6。</b>
+						</li>
+						<li align="justify">
+							<b>李本超、<font class="bold_text">毛航宇</font>、肖阳、肖臻。一种网络流量监测方法及网络设备。专利号：201710681276.4。</b>
+						</li>
+						<li align="justify">
+							<b>肖阳、陈凯、李本超、<font class="bold_text">毛航宇</font>、肖臻。一种多路径流量发送的方法及装置。专利号：201610915269.1。</b>
+						</li>
+					</ol>
+					
+				</div>
+			</section>
+			
+			<!-- Miscellaneous 
+			<section id="miscellaneous" class="four">
+				<div class="container">
+				
+					<header>
+						<h2>Miscellaneous</h2>
+					</header>
+
+					<div align="left" style="text-align:left;">
+						<li align="justify" type="square">
+							<b><font class="bold_text">Conference Senior Program-Committee (SPC/PC) Member Member:</font>
+								<li style="text-indent:30px">
+								AAAI: <a href="https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf" target="_blank">2021 (Top 25%)</a>, 2022.
+								</li>
+								<li style="text-indent:30px">
+								IJCAI: <a href="https://ijcai20.org/pc_members/" target="_blank">2020</a>, <a href="https://ijcai-21.org/senior-program-committee-members/" target="_blank">2021 (SPC)</a>, <a href="https://ijcai-22.org/pc-members/" target="_blank">2022</a>, <a href="https://ijcai-23.org/spc-member-list/" target="_blank">2023 (SPC)</a>, 2024 (SPC).
+								</li>
+								<li style="text-indent:30px">
+								ICML: <a href="https://icml.cc/Conferences/2022/Reviewers" target="_blank">2022</a>, 2023, 2024.
+								</li>
+								<li style="text-indent:30px">
+								NeurIPS: <a href="https://nips.cc/Conferences/2022/ProgramCommittee" target="_blank">2022</a>, 2023, 2024.
+								</li>
+								<li style="text-indent:30px">
+								ICLR: 2024.
+								</li>
+								<li style="text-indent:30px">
+								Other Conferences: <a href="http://ecai2020.eu/ecai-program-committee/" target="_blank">ECAI 2020</a>, 2023, 2024; CoRL 2020, 2021, 2022, 2023, 2024; KDD 2023; SDM 2024; etc.
+								</li>
+							</b>
+						</li>
+						<li align="justify" type="square">
+							<b><font class="bold_text">Journal Reviewer:</font>
+								<li style="text-indent:30px">
+								Journal of Autonomous Agents and Multi-Agent Systems
+								</li>
+								<li style="text-indent:30px">
+								IEEE Transactions on Cybernetics
+								</li>
+								<li style="text-indent:30px">
+								IEEE/CCA Journal of Automatica Sinica (自动化学报英文版)
+								</li>
+								<li style="text-indent:30px">
+								IEEE Transactions on Games
+								</li>
+								<li style="text-indent:30px">
+								IEEE Transactions on Communications
+								</li>
+								<li style="text-indent:30px">
+								Other Journals: IEEE Transactions on Cognitive and Developmental Systems; IEEE Transactions on Systems, Man and Cybernetics: Systems; etc.
+								</li>
+							</b> 
+						</li>
+						<li align="justify" type="square">
+							<b><font class="bold_text">Invinted Talk and Meeting:</font>
+								<li style="text-indent:30px">
+									<a href="https://conf.ccf.org.cn/web/api/m1240390355313102848171577370604.action" target="_blank">中国多智能体系统会议2024（CCF CMAS 2024） @中国太原</a>
+								</li>
+								<li style="text-indent:30px">
+									华航刘紫阳老师课题组交流 @北华航天工业学院（东校区）
+								</li>
+								<li style="text-indent:30px">
+									北邮杨成老师&清华刘知远老师课题组交流 @清华大学
+								</li>
+								<li style="text-indent:30px">
+									航天科工集团智能科技研究院有限公司交流 @航天智能院北京总部
+								</li>
+								<li style="text-indent:30px">
+									<a href="http://rlchina.org/rlchina_2023/Workshop.html" target="_blank">RLChina 2023 "大模型与AI Agent"大会 @中国苏州</a>
+								</li>
+								<li style="text-indent:30px">
+									中国科学院大学刘俊明老师课题组交流 @远程线上
+								</li>
+								<li style="text-indent:30px">
+									<a href="https://mp.weixin.qq.com/s/_EAVNSLuCB5ZO95KQnSyzg" target="_blank">2023多智能体系统前沿论坛《圆桌论坛：ChatGPT带给MAS的机遇与挑战》 @中国长沙</a>
+								</li>
+								<li style="text-indent:30px">
+									<a href="https://mp.weixin.qq.com/s/ObcBO3PgMlKPXICS_ibe8A" target="_blank">中国计算机学会多智能体学组十周年学术活动《优博讲坛》 @远程线上</a>
+								</li>
+								<li style="text-indent:30px">
+									<a href="https://mp.weixin.qq.com/s/X7RS9YY_BaNwTEvJQEXunA" target="_blank">第八届中国多智能体系统研讨会 @中国烟台</a>
+								</li>
+								<li style="text-indent:30px">
+									云南财经大学初晨老师课题组交流 @远程线上
+								</li>
+								<li style="text-indent:30px">
+									<a href="http://www.adai.ai/dai/2019/invited-presentation.html" target="_blank">The First DAI Conference (DAI 2019) @中国北京</a>
+								</li>
+							</b>
+						</li>
+						<li align="justify" type="square">
+							<b><font class="bold_text">Student Party Branch:</font> I served as the secretary (or committee member) of the Student Party Branch from 2012 to 2019. We held many activities such as <a href="https://news.pku.edu.cn/xwzh/129-295117.htm" target="_blank">"the Introduction of Web 2.0"</a> and "the Introduction of AI". I was awarded "the Outstanding Communist" by the School of EECS, PKU in June 2018.</b> 
+						</li>
+						<li align="justify" type="square">
+							<b><font class="bold_text">Daily Pastime:</font> I enjoy running, reading, rope-skipping, swimming, and skating. I accomplished the Beijing Half-marathon in <a href="./images/BeijingHalfmarathon2016.jpg" target="_blank">2016</a> and <a href="./images/BeijingHalfmarathon2017.jpg" target="_blank">2017</a>.</b>
+						</li>
+						<li align="justify" type="square">
+							<b><font class="bold_text">English Skill:</font> I passed the College English Test-4 (CET-4) with a score of 531 in Jun. 2012, and CET-6 with 506 in Dec. 2012. However, my spoken English is not so good.</b>
+						</li>
+					</div>
+					
+				</div>
+			</section>
+			-->
+			
+		</div>
+		
+		<!-- Footer
+		<div id="footer">
+			<ul class="copyright">
+				<li>&copy; All rights reserved.</li>
+			</ul>
+			Jan., Feb., Mar., Apr., May, Jun., Jul., Aug., Sept., Oct., Nov., Dec.
+			<i>Last update: Apr. 2024</i>
+		</div>
+		-->
+
+	</body>
+</html>
